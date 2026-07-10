@@ -16,6 +16,11 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+.primary-btn:hover{
+    background-color: rgb(27, 55, 133);
+}
+
 /* Navbar related CSS */
 nav {
     display: flex;
@@ -40,4 +45,39 @@ nav ul a {
     font-size: 16px;
     font-weight: 400;
     color: #575757FF;
+}
+
+/* Banner section CSS */
+
+.banner-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+}
+
+.hero-content{
+    text-align: center;
+    padding: 136px 0px 80px 0px;
+}
+
+.hero-content h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-content-text{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content-text p{
+    font-size: 22px;
+    font-weight: 400;
+    width: 830px;
+    color: white;
+    padding: 16px 0px 280px 0px;
+}
+
+.hero-btn{
+    padding: 26px 63px;
+    font-size: 25px;
 }
