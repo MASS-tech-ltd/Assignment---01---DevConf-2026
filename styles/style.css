@@ -1,0 +1,43 @@
+/* Universal CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+/* Common CSS */
+.primary-btn {
+    background-color: #1d4ed8FF;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 42px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Navbar related CSS */
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1640px;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 70px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757FF;
+}
