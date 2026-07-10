@@ -4,6 +4,7 @@
     padding: 0;
     font-family: "Inter", sans-serif;
 }
+
 /* Common CSS */
 .primary-btn {
     background-color: #1d4ed8FF;
@@ -17,7 +18,7 @@
     cursor: pointer;
 }
 
-.primary-btn:hover{
+.primary-btn:hover {
     background-color: rgb(27, 55, 133);
 }
 
@@ -25,13 +26,9 @@
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1640px;
+    max-width: 1320px;
     margin: 30px auto;
     align-items: center;
-}
-
-.logo {
-    margin-left: 70px;
 }
 
 nav ul {
@@ -49,27 +46,27 @@ nav ul a {
 
 /* Banner section CSS */
 
-.banner-container{
+.banner-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
 }
 
-.hero-content{
+.hero-content {
     text-align: center;
     padding: 136px 0px 80px 0px;
 }
 
-.hero-content h1{
+.hero-content h1 {
     font-size: 80px;
     font-weight: 700;
     color: white;
 }
 
-.hero-content-text{
+.hero-content-text {
     display: flex;
     justify-content: center;
 }
 
-.hero-content-text p{
+.hero-content-text p {
     font-size: 22px;
     font-weight: 400;
     width: 830px;
@@ -77,7 +74,54 @@ nav ul a {
     padding: 16px 0px 280px 0px;
 }
 
-.hero-btn{
+.hero-btn {
     padding: 26px 63px;
     font-size: 25px;
+}
+
+/* Speakers section CSS */
+
+.speakers-section-container {
+    max-width: 1320px;
+    margin: 80px auto 0px;
+}
+
+.speakers-heading {
+    color: #000102FF;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.speakers-content-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 34px;
+}
+
+.speaker {
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+}
+
+.speaker-expertise {
+    color: #2563ebFF;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 26px;
+}
+
+.speaker h6 {
+    color: #0d1b2aFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 8px 0px;
+}
+
+.speaker-designation {
+    color: #575757FF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 26px;
 }
