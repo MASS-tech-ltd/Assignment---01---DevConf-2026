@@ -130,7 +130,7 @@ nav ul a {
 
 .secure-section {
     max-width: 1320px;
-    margin: 150px auto 132px;
+    margin: 150px auto 100px;
 }
 
 .secure-section-heading {
@@ -281,4 +281,94 @@ nav ul a {
 
 .card-btn-3:hover {
     background-color: rgb(162, 191, 255);
+}
+
+/* Conference agenda section (Placeholder section) - CSS */
+
+.schedule-container {
+    max-width: 1320px;
+    margin: 170px auto 80px;
+}
+
+.schedule-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title {
+    color: #2563eb;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.schedule-header h2 {
+    font-size: 42px;
+    color: #222;
+}
+
+.schedule-details {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.schedule-item {
+    display: flex;
+    gap: 25px;
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .08);
+    border: 1px solid rgb(202, 219, 255);
+}
+
+.time {
+    color: #2563eb;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.details h3 {
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.details p {
+    color: #666;
+}
+
+.info-card {
+    flex: 1;
+    background: #f2f6ff;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .08);
+    position: sticky;
+    top: 30px;
+    border: 1px solid rgb(202, 219, 255);
+}
+
+.info-card h3 {
+    margin-bottom: 25px;
+    color: #222;
+}
+
+.info {
+    margin-bottom: 22px;
+}
+
+.info strong {
+    color: #2563eb;
+}
+
+.info p {
+    margin-top: 6px;
+    color: #666;
+}
+
+.info-card-btn {
+    font-size: 14px;
+    margin-top: 16px;
 }
