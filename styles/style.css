@@ -162,7 +162,7 @@ nav ul a {
 
 .card-2 {
     margin: 0px 24px;
-    background: #0d1b2aFF;
+    background: rgb(23, 46, 71);
     border-radius: 12px;
 }
 
@@ -371,4 +371,54 @@ nav ul a {
 .info-card-btn {
     font-size: 14px;
     margin-top: 16px;
+}
+
+/* Footer section CSS */
+
+.footer-container {
+    background: #0d1b2aFF;
+}
+
+.footer {
+    max-width: 1320px;
+    margin: 70px auto 0px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 20px 0px;
+}
+
+.footer-icons {
+    color: #ffffff66;
+    gap: 80px;
+}
+
+.footer-icons span {
+    margin-right: 14px;
+    font-size: 32px;
+}
+
+.footer-line{
+    border: none;
+    height: 1px;
+    background: #ffffff66;
+    width: 1320px;
+}
+
+.footer-copyrights{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 50px 0px;
+}
+
+.footer-copyrights small{
+    color: #ffffff66;
+}
+
+.footer-privacy{
+    display: flex;
+    gap: 30px;
 }
