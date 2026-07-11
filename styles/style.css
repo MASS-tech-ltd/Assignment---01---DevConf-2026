@@ -48,6 +48,8 @@ nav ul a {
 
 .banner-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-content {
@@ -110,6 +112,7 @@ nav ul a {
     font-size: 12px;
     font-weight: 600;
     margin-top: 26px;
+    margin-left: 30px;
 }
 
 .speaker h6 {
@@ -117,6 +120,7 @@ nav ul a {
     font-size: 20px;
     font-weight: 700;
     margin: 8px 0px;
+    margin-left: 30px;
 }
 
 .speaker-designation {
@@ -124,6 +128,7 @@ nav ul a {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 26px;
+    margin-left: 30px;
 }
 
 /* Secure your spot section CSS */
